@@ -10,7 +10,9 @@ local Frame_2 = Instance.new("Frame")
 local UICorner_2 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
 local ImageLabel = Instance.new("ImageLabel")
-local credits = "Inject Notification Made By Bloxi#0002 for Vector X API."
+local credits = "Inject Notification Made By Bloxi#0002 for Vector X API"
+
+--Properties:
 
 AAVectorX.Name = "AAVectorX"
 AAVectorX.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -67,8 +69,10 @@ ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BackgroundTransparency = 1.000
 ImageLabel.Position = UDim2.new(0.0356108584, 0, 0.0922083929, 0)
 ImageLabel.Size = UDim2.new(0, 58, 0, 67)
-print(credits)
 ImageLabel.Image = "http://www.roblox.com/asset/?id=7039747536"
+print(credits)
+
+-- Scripts:
 
 local function SYYSWCA_fake_script() -- AAVectorX.LocalScript 
 	local script = Instance.new('LocalScript', AAVectorX)
