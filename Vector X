@@ -15,7 +15,7 @@ local credits = "Inject Notification Made By Bloxi#0002 for Vector X API"
 --Properties:
 
 AAVectorX.Name = "AAVectorX"
-AAVectorX.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+AAVectorX.Parent = game:WaitForChild("CoreGui")
 AAVectorX.ResetOnSpawn = false
 
 Frame.Parent = AAVectorX
