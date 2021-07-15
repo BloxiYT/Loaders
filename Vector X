@@ -25,6 +25,7 @@ Frame.BackgroundTransparency = 0.150
 Frame.BorderColor3 = Color3.fromRGB(24, 24, 24)
 Frame.Position = UDim2.new(2.08299994, 0, 0.893000007, 0)
 Frame.Size = UDim2.new(0, 291, 0, 97)
+Frame.ZIndex = "39582394832948948948239482394832"
 
 UICorner.CornerRadius = UDim.new(0, 10)
 UICorner.Parent = Frame
